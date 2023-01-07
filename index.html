@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart UI</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <!-- <script src="https://kit.fontawesome.com/316449107e.js" crossorigin="anonymous"></script> -->
+</head>
+<body>
+
+  <div class="container-fluid container-override">
+    <div class="row">
+      <div class="col-md-2">
+        <p class="sizes fw-bold fs-5">Sizes</p>
+        <div class="d-flex flex-wrap size mb-4 mt-3 text-muted">
+          <div class="pt-2 mx-2">XS</div>
+          <div class="pt-2 mx-2">S</div>
+          <div class="pt-2 mx-2">M</div>
+          <div class="pt-2 mx-2">ML</div>
+        </div>
+        <div class="d-flex flex-wrap size mb-3 text-muted">
+          <div class="pt-2 mx-2">L</div>
+          <div class="pt-2 mx-2">XL</div>
+          <div class="pt-2 mx-2">XXL</div>
+        </div>
+        
+        <p class="text-muted text-center">Leave a star on Github if this was useful :)</p>
+        <button type="button" class="btn btn-secondary btn-semi-light" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover">
+          <i class="bi bi-star-fill"></i><span class="star"> Star</span>
+        </button>
+        <button type="button" class="btn btn-secondary btn-semi-light" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover">
+          </i><span class="star fw-semibold"> 848</span>
+        </button>
+      </div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-md-2">
+            <span class="product">16 Product(s) found.</span>
+          </div>
+          <div class="col-md-3 offset-md-7 d-flex">
+            <span>Order by</span>
+              <select class="form-select" size="1" aria-label="size 3 select example">
+                <option selected disabled>Select</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card">
+              <a href="#" class="btn btn-primary btn-btn">Free Shipping</a>
+              <img src="images/baseball-cap-baseball-cap-278c21d35e8bd9e4b64dc250b2d53409.png" alt="..." class="cap-img">
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6 ct-override">Baseball Cap Red L</h5>
+                <div class="price">
+                  <p class="card-text fs-4">$20</p>
+                  <p class="card-text fs-6 discount-price text-muted">or 3 for $50</p>
+                </div>
+              </div>
+              <a href="#" class="btn btn-primary btn-lower">Add to Cart</a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <a href="#" class="btn btn-primary btn-btn">Free Shipping</a>
+              <img src="images/baseball-cap-baseball-cap-png-image-bae28c068910d007e56e9fc27e2ed6a1 (1).png" class="card-img-top" alt="...">
+              <div class="card-body cb-margin">
+                <h5 class="card-title text-center fs-6 ct-override">Baseball Cap Indigo L</h5>
+                <div class="price text-center">
+                  <p class="card-text fs-4">$20</p>
+                  <p class="card-text fs-6 discount-price text-muted">or 3 for $50</p>
+                </div>
+              </div>
+              <a href="#" class="btn btn-primary btn-lower">Add to Cart</a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <a href="#" class="btn btn-primary btn-btn">Free Shipping</a>
+              <img src="images/baseball-cap-white-product-baseball-cap-png-image-331efda64c031573a2f86898e7d61806.png" class="card-img-top cap-img" alt="...">
+              <div class="card-body cb-margin">
+                <h5 class="card-title text-center fs-6 ct-override">Baseball Cap White M</h5>
+                <div class="price text-center">
+                  <p class="card-text fs-4">$20</p>
+                  <p class="card-text fs-6 discount-price text-muted">or 3 for $50</p>
+                </div>
+              </div>
+              <a href="#" class="btn btn-primary btn-lower">Add to Cart</a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <a href="#" class="btn btn-primary btn-btn">Free Shipping</a>
+              <img src="images/Blue-cap-illustration-on-transparent-background-PNG.png" class="card-img-top cap-img" alt="...">
+              <div class="card-body cb-top">
+                <h5 class="card-title text-center fs-6 ct-override">Baseball Cap Jeans M</h5>
+                <div class="price text-center">
+                  <p class="card-text fs-4">$20</p>
+                  <p class="card-text fs-6 discount-price text-muted">or 3 for $50</p>
+                </div>
+              </div>
+              <a href="#" class="btn btn-primary btn-lower">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row flex-row-reverse">
+          <div class="col-md-3">
+            <div class="card">
+              <a href="#" class="btn btn-primary btn-btn">Free Shipping</a>
+              <img src="images/baseball-cap-baseball-cap-278c21d35e8bd9e4b64dc250b2d53409.png" alt="..." class="cap-img">
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6 ct-override">Baseball Cap Red L</h5>
+                <div class="price">
+                  <p class="card-text fs-4">$20</p>
+                  <p class="card-text fs-6 discount-price text-muted">or 3 for $50</p>
+                </div>
+              </div>
+              <a href="#" class="btn btn-primary btn-lower">Add to Cart</a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <a href="#" class="btn btn-primary btn-btn">Free Shipping</a>
+              <img src="images/baseball-cap-baseball-cap-png-image-bae28c068910d007e56e9fc27e2ed6a1 (1).png" class="card-img-top cap-img" alt="...">
+              <div class="card-body cb-margin">
+                <h5 class="card-title text-center fs-6 ct-override">Baseball Cap Indigo L</h5>
+                <div class="price text-center">
+                  <p class="card-text fs-4">$20</p>
+                  <p class="card-text fs-6 discount-price text-muted">or 3 for $50</p>
+                </div>
+              </div>
+              <a href="#" class="btn btn-primary btn-lower">Add to Cart</a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <a href="#" class="btn btn-primary btn-btn">Free Shipping</a>
+              <img src="images/baseball-cap-white-product-baseball-cap-png-image-331efda64c031573a2f86898e7d61806.png" class="card-img-top cap-img" alt="...">
+              <div class="card-body cb-margin">
+                <h5 class="card-title text-center fs-6 ct-override">Baseball Cap White M</h5>
+                <div class="price text-center">
+                  <p class="card-text fs-4">$20</p>
+                  <p class="card-text fs-6 discount-price text-muted">or 3 for $50</p>
+                </div>
+              </div>
+              <a href="#" class="btn btn-primary btn-lower">Add to Cart</a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <a href="#" class="btn btn-primary btn-btn">Free Shipping</a>
+              <img src="images/Blue-cap-illustration-on-transparent-background-PNG.png" class="card-img-top cap-img" alt="...">
+              <div class="card-body cb-top">
+                <h5 class="card-title text-center fs-6 ct-override">Baseball Cap Jeans M</h5>
+                <div class="price text-center">
+                  <p class="card-text fs-4">$20</p>
+                  <p class="card-text fs-6 discount-price text-muted">or 3 for $50</p>
+                </div>
+              </div>
+              <a href="#" class="btn btn-primary btn-lower">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row flex-row">
+          <div class="col-md-3">
+            <div class="card">
+              <a href="#" class="btn btn-primary btn-btn">Free Shipping</a>
+              <img src="images/baseball-cap-baseball-cap-278c21d35e8bd9e4b64dc250b2d53409.png" alt="..." class="cap-img">
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6 ct-override">Baseball Cap Red L</h5>
+                <div class="price">
+                  <p class="card-text fs-4">$20</p>
+                  <p class="card-text fs-6 discount-price text-muted">or 3 for $50</p>
+                </div>
+              </div>
+              <a href="#" class="btn btn-primary btn-lower">Add to Cart</a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <a href="#" class="btn btn-primary btn-btn">Free Shipping</a>
+              <img src="images/baseball-cap-baseball-cap-png-image-bae28c068910d007e56e9fc27e2ed6a1 (1).png" class="card-img-top cap-img" alt="...">
+              <div class="card-body cb-margin">
+                <h5 class="card-title text-center fs-6 ct-override">Baseball Cap Indigo L</h5>
+                <div class="price text-center">
+                  <p class="card-text fs-4">$20</p>
+                  <p class="card-text fs-6 discount-price text-muted">or 3 for $50</p>
+                </div>
+              </div>
+              <a href="#" class="btn btn-primary btn-lower">Add to Cart</a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <a href="#" class="btn btn-primary btn-btn">Free Shipping</a>
+              <img src="images/baseball-cap-white-product-baseball-cap-png-image-331efda64c031573a2f86898e7d61806.png" class="card-img-top cap-img" alt="...">
+              <div class="card-body cb-margin">
+                <h5 class="card-title text-center fs-6 ct-override">Baseball Cap White M</h5>
+                <div class="price text-center">
+                  <p class="card-text fs-4">$20</p>
+                  <p class="card-text fs-6 discount-price text-muted">or 3 for $50</p>
+                </div>
+              </div>
+              <a href="#" class="btn btn-primary btn-lower">Add to Cart</a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <a href="#" class="btn btn-primary btn-btn">Free Shipping</a>
+              <img src="images/Blue-cap-illustration-on-transparent-background-PNG.png" class="card-img-top cap-img" alt="...">
+              <div class="card-body cb-top">
+                <h5 class="card-title text-center fs-6 ct-override">Baseball Cap Jeans M</h5>
+                <div class="price text-center">
+                  <p class="card-text fs-4">$20</p>
+                  <p class="card-text fs-6 discount-price text-muted">or 3 for $50</p>
+                </div>
+              </div>
+              <a href="#" class="btn btn-primary btn-lower">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row flex-row-reverse">
+          <div class="col-md-3">
+            <div class="card">
+              <a href="#" class="btn btn-primary btn-btn">Free Shipping</a>
+              <img src="images/baseball-cap-baseball-cap-278c21d35e8bd9e4b64dc250b2d53409.png" alt="..." class="cap-img">
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6 ct-override">Baseball Cap Red L</h5>
+                <div class="price">
+                  <p class="card-text fs-4">$20</p>
+                  <p class="card-text fs-6 discount-price text-muted">or 3 for $50</p>
+                </div>
+              </div>
+              <a href="#" class="btn btn-primary btn-lower">Add to Cart</a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <a href="#" class="btn btn-primary btn-btn">Free Shipping</a>
+              <img src="images/baseball-cap-baseball-cap-png-image-bae28c068910d007e56e9fc27e2ed6a1 (1).png" class="card-img-top cap-img" alt="...">
+              <div class="card-body cb-margin">
+                <h5 class="card-title text-center fs-6 ct-override">Baseball Cap Indigo L</h5>
+                <div class="price text-center">
+                  <p class="card-text fs-4">$20</p>
+                  <p class="card-text fs-6 discount-price text-muted">or 3 for $50</p>
+                </div>
+              </div>
+              <a href="#" class="btn btn-primary btn-lower">Add to Cart</a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <a href="#" class="btn btn-primary btn-btn">Free Shipping</a>
+              <img src="images/baseball-cap-white-product-baseball-cap-png-image-331efda64c031573a2f86898e7d61806.png" class="card-img-top cap-img" alt="...">
+              <div class="card-body cb-margin">
+                <h5 class="card-title text-center fs-6 ct-override">Baseball Cap White M</h5>
+                <div class="price text-center">
+                  <p class="card-text fs-4">$20</p>
+                  <p class="card-text fs-6 discount-price text-muted">or 3 for $50</p>
+                </div>
+              </div>
+              <a href="#" class="btn btn-primary btn-lower">Add to Cart</a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <a href="#" class="btn btn-primary btn-btn">Free Shipping</a>
+              <img src="images/Blue-cap-illustration-on-transparent-background-PNG.png" class="card-img-top cap-img" alt="...">
+              <div class="card-body cb-top">
+                <h5 class="card-title text-center fs-6 ct-override">Baseball Cap Jeans M</h5>
+                <div class="price text-center">
+                  <p class="card-text fs-4">$20</p>
+                  <p class="card-text fs-6 discount-price text-muted">or 3 for $50</p>
+                </div>
+              </div>
+              <a href="#" class="btn btn-primary btn-lower">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/popper.min.js"></script>
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
